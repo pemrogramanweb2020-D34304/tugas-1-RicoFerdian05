@@ -6,8 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="http://localhost/pemrogramanweb/proses.php" method="post">
-     
+    <h2>Masukkan Bilangan</h2>
+    <form action="http://localhost/PemrogramanWeb/Kalkulator2.php" method="get">
+        <table>
+            <tr>
+                <td>Bilangan 1</td>
+                <td> : <input type="text" name="bilangan1" value= 0></td>
+            </tr>
+            <tr>
+                <td>Bilangan 2</td>
+                <td> : <input type="text" name="bilangan2" value= 0></td>
+            </tr>
+            <tr>
+                <td>Operasi Hitung</td>
+                <td> : 
+                    <select name="operasi">
+                        <option value="tambah">+</option>
+                        <option value="kurang">-</option>
+                        <option value="kali">*</option>
+                        <option value="bagi">/</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
